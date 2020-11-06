@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORMULIR PPDB JALUR ZONASI TAHUN 2020</title>
+</head>
+<body style="background-image: url(sand.jpg); background-repeat: no-repeat; background-size: cover;">
+    <form method="POST" action=“simpan.php”>
+    <h1 style="text-align: center;">FORMULIR PPDB JALUR ZONASI TAHUN 2020</h1>
+    <fieldset>
+        <legend>INFO PENDAFTARAN</legend>
+        <p>
+            <label>NISN:</label>
+            <input type="number" name="nisn" placeholder="NISN..." />
+        </p>
+        <p>
+            <label>Asal Sekolah:</label>
+            <input type="text" name="asal sekolah" placeholder="Asal Sekolah..." />
+        </p>
+        <p>
+            <label>Tahun Lulus:</label>
+            <input type="number" name="tahun lulus" placeholder="Tahun Lulus..." />
+        </p>
+        <p>
+            <label>Lampiran Foto Copy Ijazah:</label>
+            <input type="file" name="lampiran ijazah" />
+        </p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>DATA CALON PESERTA</legend>
+        <p>
+            <label>Nama Lengkap:</label>
+            <input type="text" name="nama lengkap" placeholder="Nama Lengkap..." />
+        </p>
+        <p>
+            <label>NIK:</label>
+            <input type="number" name="nik" placeholder="NIK..." />
+        </p>
+        <p>
+            <label>Tempat/Tanggal Lahir:</label>
+            <input type="text" name="tempat lahir" placeholder="Tempat Lahir..." />
+            <input type="date" name="tanggal" />
+        </p>
+        <p>
+            <label>Lampiran Foto Copy Akte Kelahiran Dilegalisir:</label>
+            <input type="file" name="lampiran akte kelahiran" />
+        </p>
+        <p>
+            <label>Jenis Kelamin:</label>
+            <label><input type="radio" name="jenis kelamin" value="laki-laki" /> Laki-Laki</label>
+            <label><input type="radio" name="jenis kelamin" value="perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <label>Alamat:</label>
+            <input type="text" name="alamat" placeholder="Alamat..." />
+        </p>
+        <p>
+            <label>Desa/Kel:</label>
+            <input type="text" name="desa" placeholder="Desa/Kel..." />
+        </p>
+        <p>
+            <label>Kecamatan:</label>
+            <input type="text" name="kecamatan" placeholder="Kecamatan..." />
+        </p>
+        <p>
+            <label>Kabupaten:</label>
+            <input type="text" name="kabupaten" placeholder="Kabupaten..." />
+        </p>
+        <p>
+            <label>Provinsi:</label>
+            <input type="text" name="provinsi" placeholder="Provinsi..." />
+        </p>
+        <p>
+            <label>Email Aktif:</label>
+            <input type="email" name="email" placeholder="Email Aktif..." />
+        </p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>DATA ORANG TUA</legend>
+        <p>
+            <label>Lampiran Kartu Keluarga:</label>
+            <input type="file" name="lampiran kk" />
+        </p>
+        <p>
+            <label>Nomor Kartu Keluarga:</label>
+            <input type="number" name="nomor kk" placeholder="Nomor Kartu Keluarga..." />
+        </p>
+        <p>
+            <label>Nama Ayah Kandung:</label>
+            <input type="text" name="nama ayah kandung" placeholder="Nama Ayah Kandung..." />
+        </p>
+        <p>
+            <label>Agama Ayah:</label>
+            <select name="agama ayah">
+                <option value="none">---::---</option>
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+                <option value="katolik">Katolik</option>
+                <option value="kong hu cu">Kong Hu Cu</option>
+            </select>
+        </p>
+        <p>
+            <label>Pekerjaan Ayah:</label>
+            <input type="text" name="pekerjaan ayah" placeholder="Pekerjaan Ayah..." />
+        </p>
+        <p>
+            <label>Nama Ibu Kandung:</label>
+            <input type="text" name="nama ibu kandung" placeholder="Nama Ibu Kandung..." />
+        </p>
+        <p>
+            <label>Agama Ibu:</label>
+            <select name="agama ibu">
+                <option value="none">---::---</option>
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+                <option value="katolik">Katolik</option>
+                <option value="kong hu cu">Kong Hu Cu</option>
+            </select>
+        </p>
+        <p>
+            <label>Pekerjaan Ibu:</label>
+            <input type="text" name="pekerjaan ibu" placeholder="Pekerjaan Ibu..." />
+        </p>
+        <p>
+            <label>Alamat Orang Tua:</label>
+            <input type="text" name="alamat ortu" placeholder="Alamat Orang Tua..." />
+        </p>
+        <p>
+            <label>Desa/Kel:</label>
+            <input type="text" name="desa ortu" placeholder="Desa/Kel..." />
+        </p>
+        <p>
+            <label>Kecamatan:</label>
+            <input type="text" name="kecamatan ortu" placeholder="Kecamatan..." />
+        </p>
+        <p>
+            <label>Kabupaten:</label>
+            <input type="text" name="kabupaten ortu" placeholder="Kabupaten..." />
+        </p>
+        <p>
+            <label>Provinsi:</label>
+            <input type="text" name="provinsi ortu" placeholder="Provinsi..." />
+        </p>
+    </fieldset>
+    <p>
+        <input type="submit" name="submit" value="Daftar" />
+        <input type="reset" name="reset" value="Batal">
+    </p>
+    </form>
+</body>
+</html>
