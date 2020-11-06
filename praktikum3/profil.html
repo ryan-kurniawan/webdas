@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog Mahasiswa</title>
+    </head>
+    <body>
+        <img src="beach.jpg" width="100%" height="200">
+        
+        <!--buat heading-->
+            <h1 style="color: #8B008B; text-align: center;">Blog Saya</h1>		
+        <!--buat heading-->
+            <hr>
+
+        <style>
+            body {
+                background-image:url("sand.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .navbar {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #008B8B;
+            }
+            
+            li a {
+                float: left;
+            }
+            
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            li a:hover:not(.active) {
+                background-color: #111;
+            }
+            
+            .active {
+                background-color: blue;
+            }
+            
+            .para1 {
+                text-align: right;
+                color:blue;
+            }
+            
+            table, td, th {
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 100%;
+            }
+            </style>
+            
+            <ul class="navbar">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a class="active" href="profil.html">Profil</a></li>
+            </ul>
+            
+            <hr>
+            
+            <!--buat heading-->
+            <h2 style="font-size:200%;">Profil Saya</h2>
+            <!--buat heading-->
+            
+            <!--buat tabel-->
+            <table>
+                <tr>
+                    <th rowspan="6"><img src="http://mahasiswa.dinus.ac.id/images/foto/A/A11/2019/A11.2019.11679.jpg" width="25%" ></th>
+                    <th>NIM</th>
+                    <td>A11.2019.11679</td>
+                </tr>
+                <tr>
+                    <th>Nama</th>
+                    <td>Ryan Kurniawan Waluyo</td>
+                </tr>
+                <tr>
+                    <th>Tempat Tinggal</th>
+                    <td>Semarang</td>
+                </tr>
+                <tr>
+                    <th>Program Studi</th>
+                    <td>Teknik Informatika S-1</td>
+                </tr>
+                <tr>
+                    <th>Fakultas</th>
+                    <td>Ilmu Komputer</td>
+                </tr>
+                <tr>
+                    <th>Universitas</th>
+                    <td>Dian Nuswantoro</td>
+                </tr>
+            </table>
+            <!--buat tabel-->
+            
+            <!--buat list-->
+            <ul>
+                <li>Nama Lengkap :Ryan Kurniawan Waluyo</li>
+                <li>NIM : A11.2019.11679</li>
+                <li>FAKULTAS TEKNIK INFORMATIKA</li>
+                <li>Universitas Dian Nuswantoro 2019</li>
+            </ul>
+            <!--buat list-->
+
+            <hr>
+            <p class="para1">Copyright &copy; 2020 by Ryan Kurniawan Waluyo A11.2019.11679</p>
+    </body>
+</html>
